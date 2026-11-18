@@ -154,5 +154,8 @@ CONFIG_CMDLINE="console=ttyMT3,921600n1 vmalloc=496M slub_max_order=0"
 # MMP
 # CONFIG_MMPROFILE is not set
 
+# Android battery driver (MTK smart battery is used instead)
+# CONFIG_BATTERY_ANDROID is not set
+
 # MTK printk controller
 # CONFIG_MT_PRINTK_UART_CONSOLE is not set
